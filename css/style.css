@@ -490,7 +490,6 @@ body {
 .hero {
   text-align: center;
   /* background-color: teal; */
-  /* padding: 0; */
 }
 
 .meta-data {
@@ -555,6 +554,10 @@ body {
 }
 
 /* sections */
+.hero h2 {
+  padding-top: 2em;
+}
+
 .hero p {
   max-width: 35em;
   margin-left: auto;
