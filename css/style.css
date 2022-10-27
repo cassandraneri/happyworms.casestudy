@@ -564,10 +564,13 @@ body {
   margin-right: auto;
 }
 
-#challenge p,
+#projectoverview p,
+#planning p,
 #process p,
-#solution p {
+#deliverables p {
   max-width: 35em;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Flex Grid*/
