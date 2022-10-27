@@ -101,6 +101,27 @@ a:hover {
   margin-bottom: 3em;
 }
 
+.sectionhead1 {
+  padding-top: 2em;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-size: 1em;
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  margin-bottom: 1em;
+}
+
+.sectionhead1:after {
+  content: "";
+  border-bottom: 2px solid #ccc;
+  display: block;
+  width: 100px;
+  margin: 0 auto;
+  margin-top: 1em;
+  margin-bottom: 3em;
+}
+
 /* #BUTTONS */
 button {
   font-size: inherit;
@@ -554,9 +575,6 @@ body {
 }
 
 /* sections */
-.hero h2 {
-  padding-top: 2em;
-}
 
 .hero p {
   max-width: 35em;
